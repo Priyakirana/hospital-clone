@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: priyakirana14/hospital
-  tag: latest
+  tag: latest   # changes 
 
 service:
   type: LoadBalancer
