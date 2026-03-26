@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hospital-container
-        image: priyakirana14/hospital:v1.0.0 #
+        image: priyakirana14/hospital:latest
         ports:
         - containerPort: 5000
 
