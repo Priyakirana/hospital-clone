@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: hospital-service
 spec:
-  type: LoadBalancer
+  type: {{ .Values.service.type }}
   selector:
     app: hospital
   ports:

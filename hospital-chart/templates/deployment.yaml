@@ -18,11 +18,8 @@ spec:
         ports:
         - containerPort: 5000
 
-    
         envFrom:
           - configMapRef:
               name: hospital-config
           - secretRef:
               name: hospital-secret
-
-      

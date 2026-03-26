@@ -5,6 +5,7 @@ image:
   tag: latest
 
 service:
+  type: LoadBalancer
   port: 80
   targetPort: 5000
 
@@ -16,4 +17,3 @@ secret:
   ADMIN_PASSWORD: 10@AdminPW
   SESSION_SECRET: yourSuperSecretSessionKey
   JWT_SECRET: yourSuperSecretJWTKey123456789
-
