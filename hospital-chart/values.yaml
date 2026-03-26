@@ -1,8 +1,8 @@
 replicaCount: 2
 
 image:
-  repository: priyakirana14/hospital-app
-  tag: v1.0.1
+  repository: priyakirana14/hospital
+  tag: latest
 
 service:
   port: 80
